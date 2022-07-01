@@ -12,25 +12,33 @@ nav{
 }
 
 nav ul{
-
+    /*float: center;*/
+    margin-right: 20px;
 }
 
 nav ul li{
     display: inline-block;
+    line-height: 40px;
+    margin: 15px;
 }
 
 nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 0px;
+    border-radius: 3px;
     text-transform: uppercase;
 }
 
-hi, h2, h3{
-    font-family: ‘Lucida Bright", cursive;
+hi, h2, h3 {
+    font-family: 'Lucida Bright', cursive;
     font-weight: 700;
     text-align: center;
+}
 
 a:active , a:hover{
-    background: #ib9bff;
-    transition: .55;
+    background: #1b9bff;
+    transition: .5s;
 }
 
 li{
@@ -55,15 +63,15 @@ p{
 }
 
 section{
-    width: 30%:
+    width: 30%;
     float: left;
-    background: #f4f4f4a;
+    background: #f4f4f4;
     height: 600px;
     margin: 0;
 }
 
 .right{
-    width: 70%:
+    width: 70%;
     float: left;
     background: white;
     height: 600px;
@@ -89,7 +97,7 @@ section{
     clear: both;
     font-family: ‘Amatica SC’, cursive;
     font-size: x-large;
-    background color: ;
+    background-color: skyblue;
     text-align: center;
     height: 130px;
     padding-top: 5px;
