@@ -78,7 +78,7 @@ section{
     border-left: 0;
 }
 
-.header {
+.header{
     background-color: skyblue;
     height: 263px;
     text-align: center;
@@ -87,13 +87,13 @@ section{
 
 }
 
-.container div {
+.container div{
     padding: 1%;
     box-sizing: border-box;
     min-height: 500px;
 }
 
-.footer {
+.footer{
     clear: both;
     font-family: ‘Amatica SC’, cursive;
     font-size: x-large;
@@ -102,4 +102,17 @@ section{
     height: 130px;
     padding-top: 5px;
     box-sizing: border-box;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+#check{
+    display: none;
 }
